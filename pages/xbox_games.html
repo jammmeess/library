@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../img/page_icon.png" />
+    <link rel="stylesheet" href="../library.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Xbox Games</title>
+  </head>
+  <body style="background-color: rgb(36, 35, 35)">
+    <!-- Navigation Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../library.html"
+          ><img src="../img/logo.png" width="160px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- Back Home Nav -->
+            <li class="nav-item">
+              <a class="nav-link" href="../library.html"
+                ><img src="../img/arrow.png" width="40px" /> Go Back Home</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+  <!-- Carousel -->
+  <div>
+    <div class="container-fluid">
+      <div
+        id="xbox_games"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="4500"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#xbox_games"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#xbox_games"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#xbox_games"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../img/xbox/forza.jpg"
+              class="d-block w-100"
+              alt="Forza Horizon 5"
+            />
+            <div class="carousel-caption d-none d-sm-block">
+              <h5>Forza Horizon 5</h5>
+              <p>
+                Your Ultimate Horizon Adventure awaits! Explore the vibrant and
+                ever-evolving open world landscapes of Mexico with limitless,
+                fun driving action in hundreds of the world's greatest cars.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../img/xbox/skyrim.jpg"
+              class="d-block w-100"
+              alt="The Elder Scrolls V: Skyrim"
+            />
+            <div class="carousel-caption d-none d-sm-block">
+              <h5>Skyrim</h5>
+              <p>
+                Winner of more than 200 Game of the Year Awards, Skyrim Special
+                Edition brings the epic fantasy to life in stunning detail. The
+                Special Edition includes the critically acclaimed game and
+                add-ons with all-new features like remastered art and effects,
+                volumetric god rays, dynamic depth of field, screen-space
+                reflections, and more.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../img/xbox/cyberpunk.jpg"
+              class="d-block w-100"
+              alt="Cyberpunk: 2077"
+            />
+            <div class="carousel-caption d-none d-sm-block">
+              <h5>Cyberpunk: 2077</h5>
+              <p>
+                Cyberpunk 2077 is an open-world, action-adventure RPG set in the
+                megalopolis of Night City, where you play as a cyberpunk
+                mercenary wrapped up in a do-or-die fight for survival. Improved
+                and featuring all-new free additional content, customize your
+                character and playstyle as you take on jobs, build a reputation,
+                and unlock upgrades. The relationships you forge and the choices
+                you make will shape the story and the world around you. Legends
+                are made here. What will yours be?
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#xbox_games"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#xbox_games"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-12 py-5 d-flex align-items-stretch">
+        <div class="card">
+          <img
+            src="../img/xbox/games/forza.jpg"
+            class="card-img-top"
+            alt="Forza Horizon 5"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Forza Horizon 5s</h5>
+            <p class="card-text">
+              Your Ultimate Horizon Adventure awaits! Explore the vibrant and
+              ever-evolving open world landscapes of Mexico with limitless, fun
+              driving action in hundreds of the world's greatest cars.
+            </p>
+            <a href="#" class="btn btn-secondary">Rent Now</a>
+            <a href="#" class="btn btn-secondary"
+              ><img src="../img/wishlist.png" width="20px"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-12 py-5 d-flex align-items-stretch">
+        <div class="card">
+          <img
+            src="../img/xbox/games/skyrim.jpg"
+            class="card-img-top"
+            alt="The Elder Scrolls V: Skyrim"
+          />
+          <div class="card-body">
+            <h5 class="card-title">The Elder Scrolls V: Skyrim</h5>
+            <p class="card-text">
+              Winner of more than 200 Game of the Year Awards, Skyrim Special
+              Edition brings the epic fantasy to life in stunning detail.
+            </p>
+            <a href="#" class="btn btn-secondary">Rent Now</a>
+            <a href="#" class="btn btn-secondary"
+              ><img src="../img/wishlist.png" width="20px"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-12 py-5 d-flex align-items-stretch">
+        <div class="card">
+          <img
+            src="../img/xbox/games/cyberpunk.jpg"
+            class="card-img-top"
+            alt="Cyberpunk: 2077"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cyberpunk: 2077</h5>
+            <p class="card-text">
+              Cyberpunk 2077 is an open-world, action-adventure RPG set in the
+              megalopolis of Night City, where you play as a cyberpunk mercenary
+              wrapped up in a do-or-die fight for survival.
+            </p>
+            <a href="#" class="btn btn-secondary">Rent Now</a>
+            <a href="#" class="btn btn-secondary"
+              ><img src="../img/wishlist.png" width="20px"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-12 py-5 d-flex align-items-stretch">
+        <div class="card">
+          <img
+            src="../img/xbox/games/assassins_creed.jpg"
+            class="card-img-top"
+            alt="Assassins Creed: Valhala"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Assassins Creed: Valhala</h5>
+            <p class="card-text">
+              Become Eivor, a legendary Viking warrior. Explore England's Dark
+              Ages as you raid your enemies, grow your settlement, and build
+              your political power in the quest to earn a place among the gods
+              in Valhalla.
+            </p>
+            <a href="#" class="btn btn-secondary">Rent Now</a>
+            <a href="#" class="btn btn-secondary"
+              ><img src="../img/wishlist.png" width="20px"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-12 py-5 d-flex align-items-stretch">
+        <div class="card">
+          <img
+            src="../img/xbox/games/biomutant.jpg"
+            class="card-img-top"
+            alt="Biomutant"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Biomutant</h5>
+            <p class="card-text">
+              A plague is ruining the land and the Tree-of-Life is bleeding
+              death from its roots. The Tribes stand divided. Explore a world in
+              turmoil and define its fate-will you be its saviour or lead it to
+              an even darker destiny?
+            </p>
+            <a href="#" class="btn btn-secondary">Rent Now</a>
+            <a href="#" class="btn btn-secondary"
+              ><img src="../img/wishlist.png" width="20px"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-12 py-5 d-flex align-items-stretch">
+        <div class="card">
+          <img
+            src="../img/xbox/games/halo.jpg"
+            class="card-img-top"
+            alt="Halo Infinite"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Halo Infinite</h5>
+            <p class="card-text">
+              When all hope is lost and humanity's fate hangs in the balance,
+              the Master Chief is ready to confront the most ruthless foe he's
+              ever faced. Step inside the armor of humanity's greatest hero to
+              experience an epic adventure and explore the massive scale of the
+              Halo ring. To experience the campaign, purchase Halo Infinite.
+            </p>
+            <a href="#" class="btn btn-secondary">Rent Now</a>
+            <a href="#" class="btn btn-secondary"
+              ><img src="../img/wishlist.png" width="20px"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-12 py-5 d-flex align-items-stretch">
+        <div class="card">
+          <img
+            src="../img/xbox/games/starwars.jpg"
+            class="card-img-top"
+            alt="Star Wars Jedi Survivor"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Star Wars Jedi Survivor</h5>
+            <p class="card-text">
+              No longer a Padawan, Cal has come into his own and grown into a
+              powerful Jedi Knight. Carrying the memories and expectations of
+              the Jedi Order with him, his crusade against the Empire has only
+              become more perilous. The Dark Times are closing in - with enemies
+              new and familiar surrounding him, Cal will need to decide how far
+              he's willing to go to save those closest to him.
+              <a href="#" class="btn btn-secondary">Rent Now</a>
+              <a href="#" class="btn btn-secondary"
+                ><img src="../img/wishlist.png" width="20px"
+              /></a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-12 py-5 d-flex align-items-stretch">
+        <div class="card">
+          <img
+            src="../img/xbox/games/cod.jpg"
+            class="card-img-top"
+            alt="Call of Duty: Modern Warfare"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Call of Duty: Modern Warfare</h5>
+            <p class="card-text">
+              Experience a visceral Campaign or assemble your team in the
+              ultimate online playground with multiple Special Ops challenges
+              and a mix of Multiplayer maps and modes.
+            </p>
+            <a href="#" class="btn btn-secondary">Rent Now</a>
+            <a href="#" class="btn btn-secondary"
+              ><img src="../img/wishlist.png" width="20px"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color: rgb(20, 19, 19)">
+    <footer>
+      <div class="footer-content pt-4 text-light">
+        <h3>Library</h3>
+        <p>
+          Library is a gaming website where you will be able to rent from old
+          games to the latest releases. Here you can freely play any game we
+          have without breaking the bank.
+        </p>
+        <ul class="”socials”">
+          <th>
+            <a href="https://www.facebok.com"
+              ><img src="../img/facebook_footer.png" width="30px"
+            /></a>
+          </th>
+          <th>
+            <a href="https://www.twitter.com"
+              ><img src="../img/twitter_footer.png" width="30px"
+            /></a>
+          </th>
+          <th>
+            <a href="https://www.instagram.com"
+              ><img src="../img/instagram_footer.png" width="30px"
+            /></a>
+          </th>
+        </ul>
+      </div>
+      <div class="footer-bottom text-light">
+        <p>copyright &copy;2023 <a href="../library.html">Library</a></p>
+      </div>
+    </footer>
+  </div>
+</html>
